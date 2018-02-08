@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+  <title>realtime poll</title>
+</head>
+  <body>
+    <div class="container">
+      <h1>Football team vote</h1>
+      <p>Vote for your favorite european football team</p>
+      <form id ="vote-form">
+        <p>
+          <input type = "radio" name="euteam" id="realmadrid" value="Real madrid">
+          <label for="realmadrid">Real Madrid</label>
+        <p>
+        <p>
+            <input type = "radio" name="euteam" id="fcbarcelona" value="FC Barcelona">
+            <label for="fcbarcelona">FC Barcelona</label>
+        <p>
+        <p>
+              <input type = "radio" name="euteam" id="fcBayernmünchen" value="FC Bayern München">
+              <label for="fcBayernmünchen">FC Bayern München</label>
+        <p>
+
+        <p>
+              <input type = "radio" name="euteam" id="manchestercityfc" value="Manchester City FC">
+              <label for="manchestercityfc">Manchester City FC</label>
+        <p>
+        <p>
+              <input type = "radio" name="euteam" id="arsenalfc" value="Arsenal FC">
+              <label for="arsenalfc">Arsenal FC</label>
+        <p>
+        <p>
+              <input type = "radio" name="euteam" id="manchesterunitedfC" value="Manchester United FC">
+              <label for="manchesterunitedfC">Manchester United FC</label>
+        <p>
+        <p>
+              <input type = "radio" name="euteam" id="olympiquedemarseille" value="Olympique de Marseille">
+              <label for="olympiquedemarseille">Olympique de Marseille</label>
+        <p>
+
+        <p>
+              <input type = "radio" name="euteam" id="psveindhoven" value="PSV Eindhoven">
+              <label for="psveindhoven">PSV Eindhoven</label>
+        <p>
+        <input type="submit" value="vote" class="btn">
+      </form>
+      <br><br>
+      <div id="chartcontainer" style="height: 300px; width: 100%"> </div>
+    </div>
+    <script
+    			  src="http://code.jquery.com/jquery-3.3.1.min.js"
+    			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    			  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+</html>
